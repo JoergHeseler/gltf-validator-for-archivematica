@@ -8,14 +8,14 @@ To install the **gltf_validator** script in Archivematica, follow these steps:
 
 - Download the latest release of the [glTF-Validator](https://github.com/KhronosGroup/glTF-Validator/releases) and install it in the `"/usr/share/"` folder.
 
-### 1. Create a new format policy tool
+### 2. Create a new format policy tool
 - In the Archivematica frontend, navigate to **Preservation planning** > **Format policy registry** > **Tools** > **Create new tool** or go directly to [this link](http://10.10.10.20/fpr/fptool/create/).
 - Enter the following parameters:
     - **Description**: Enter `"gltf_validator"`.
     - **Version**: Enter `"1.0"`.
 - Click **Save**.
 
-### 2. Create a new validation command
+### 3. Create a new validation command
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Commands** > **Create new command** or go directly to [this link](http://10.10.10.20/fpr/idcommand/create/).
 - Fill in the following fields:
     - **The related tool**: Select **gltf_validator**.
@@ -25,7 +25,7 @@ To install the **gltf_validator** script in Archivematica, follow these steps:
     - **Command usage**: Select **Validation**.
 - Click **Save**.
 
-### 3. Create a new validation rule for ASCII based glTF 1.0
+### 4. Create a new validation rule for ASCII based glTF 1.0
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Rules** > **Create new rule** or go directly to [this link](http://10.10.10.20/fpr/fprule/create/).
 - Fill in the following fields:
     - **Purpose**: Select **Validation**.
@@ -33,7 +33,7 @@ To install the **gltf_validator** script in Archivematica, follow these steps:
     - **Command**: Select **Validate using gltf_validator**.
 - Click **Save**.
 
-### 4. Create a new validation rule for ASCII based glTF 2.0
+### 5. Create a new validation rule for ASCII based glTF 2.0
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Rules** > **Create new rule** or go directly to [this link](http://10.10.10.20/fpr/fprule/create/).
 - Fill in the following fields:
     - **Purpose**: Select **Validation**.
@@ -41,7 +41,7 @@ To install the **gltf_validator** script in Archivematica, follow these steps:
     - **Command**: Select **Validate using gltf_validator**.
 - Click **Save**.
 
-### 5. Create a new validation rule for binary glTF files
+### 6. Create a new validation rule for binary glTF files
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Rules** > **Create new rule** or go directly to [this link](http://10.10.10.20/fpr/fprule/create/).
 - Fill in the following fields:
     - **Purpose**: Select **Validation**.
