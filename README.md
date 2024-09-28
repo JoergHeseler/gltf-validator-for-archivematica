@@ -1,6 +1,6 @@
 # gltf_validator_connector_for_archivematica
 
-**gltf_validator_connector_for_archivematica** is a script that uses the official [glTF-Validator](https://github.com/KhronosGroup/glTF-Validator/releases) tool to validate glTF files in [Archivematica](https://www.archivematica.org/).
+**gltf_validator_connector_for_archivematica** is a script that uses the official [glTF-Validator](https://github.com/KhronosGroup/glTF-Validator/releases) tool to validate Graphics Language Transmission Format (glTF) files in [Archivematica](https://www.archivematica.org/).
 
 ## Installation
 
@@ -57,7 +57,7 @@ To install the **gltf_validator_connector_for_archivematica** script, follow the
 
 ## Background
 
-As part of the [NFDI4Culture](https://nfdi4culture.de/) initiative, efforts are underway to enhance the capabilities of open-source digital preservation software like Archivematica to identify, validate and preserve 3D file formats. This repository provides the **gltf_validator_connector_for_archivematica** script to enable glTF file validation in Archivematica, which is not supported by default in version 1.13.2, enhancing its 3D content preservation capabilities.
+As part of the [NFDI4Culture](https://nfdi4culture.de/) initiative, efforts are underway to enhance the capabilities of open-source digital preservation software like Archivematica to identify, validate and preserve 3D file formats. This repository provides the **gltf_validator_connector_for_archivematica** script to enable Graphics Language Transmission Format (glTF) file validation in Archivematica, which is not supported by default in version 1.13.2, enhancing its 3D content preservation capabilities.
 
 ## Related projects
 
