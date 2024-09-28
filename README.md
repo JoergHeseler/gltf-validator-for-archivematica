@@ -1,10 +1,10 @@
-# gltf_validator_connector
+# gltf_validator_connector_for_archivematica
 
-**gltf_validator_connector** is a script for [Archivematica](https://www.archivematica.org/) that uses the official [glTF-Validator](https://github.com/KhronosGroup/glTF-Validator/releases) tool to validate glTF files.
+**gltf_validator_connector_for_archivematica** is a script that uses the official [glTF-Validator](https://github.com/KhronosGroup/glTF-Validator/releases) tool to validate glTF files in [Archivematica](https://www.archivematica.org/).
 
 ## Installation
 
-To install the **gltf_validator_connector** script in Archivematica, follow these steps:
+To install the **gltf_validator_connector_for_archivematica** script in Archivematica, follow these steps:
 
 ### 1. Download the official glTF-Validator tool 
 
@@ -57,9 +57,9 @@ To install the **gltf_validator_connector** script in Archivematica, follow thes
 
 ## Background
 
-As part of the [NFDI4Culture](https://nfdi4culture.de/) initiative, efforts are being made to enhance the ability of open-source digital preservation software like Archivematica to identify, validate and preserve 3D file formats. This repository provides the **gltf_validator_connector** script that allows validating glTF files in Archivematica based on the official [glTF-Validator](https://github.com/KhronosGroup/glTF-Validator/releases) tool. 
+As part of the [NFDI4Culture](https://nfdi4culture.de/) initiative, efforts are being made to enhance the ability of open-source digital preservation software like Archivematica to identify, validate and preserve 3D file formats. This repository provides the **gltf_validator_connector_for_archivematica** script that allows validating glTF files in Archivematica based on the official [glTF-Validator](https://github.com/KhronosGroup/glTF-Validator/releases) tool. 
 
-By default, Archivematica 1.13.2 can not validate glTF files at all. Now, with the **gltf_validator_connector** glTF files can be validated, ensuring better support for the preservation of 3D files in Archivematica.
+By default, Archivematica 1.13.2 can not validate glTF files at all. Now, with **gltf_validator_connector_for_archivematica** glTF files can be validated, ensuring better support for the preservation of 3D files in Archivematica.
 
 ## Related projects
 
