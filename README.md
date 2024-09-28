@@ -61,6 +61,13 @@ As part of the [NFDI4Culture](https://nfdi4culture.de/) initiative, efforts are 
 
 By default, Archivematica 1.13.2 can not validate glTF files at all. Now, with the **gltf_validator_connector** glTF files can be validated, ensuring better support for the preservation of 3D files in Archivematica.
 
+## Related projects
+
+- [dae_validator_for_archivematica](https://github.com/JoergHeseler/dae_validator_for_archivematica)
+- [siegfried_falls_back_on_fido_for_archivematica](https://github.com/JoergHeseler/siegfried_falls_back_on_fido_for_archivematica)
+- [stl_validator_for_archivematica](https://github.com/JoergHeseler/stl_validator_for_archivematica)
+- [x3d_validator_for_archivematica](https://github.com/JoergHeseler/x3d_validator_for_archivematica)
+
 ## Imprint
 
 [NFDI4Culture](https://nfdi4culture.de/) – Consortium for Research Data on Material and Immaterial Cultural Heritage
