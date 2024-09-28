@@ -55,6 +55,12 @@ To install the **gltf_validator_connector** script in Archivematica, follow thes
 
 [Archivematica 1.13.2](https://github.com/artefactual/archivematica/releases/tag/v1.13.2) and [glTF-Validator 2.0.0-dev.3.8](https://github.com/KhronosGroup/glTF-Validator/releases/tag/2.0.0-dev.3.8) were used to analyze, design, develop and test this script.
 
+## Background
+
+As part of the [NFDI4Culture](https://nfdi4culture.de/) initiative, efforts are being made to enhance the ability of open-source digital preservation software like Archivematica to identify, validate and preserve 3D file formats. This repository provides the **gltf_validator_connector** script that allows validating glTF files in Archivematica based on the official [glTF-Validator](https://github.com/KhronosGroup/glTF-Validator/releases) tool. 
+
+By default, Archivematica 1.13.2 can not validate glTF files at all. Now, with the **gltf_validator_connector** glTF files can be validated, ensuring better support for the preservation of 3D files in Archivematica.
+
 ## Imprint
 
 [NFDI4Culture](https://nfdi4culture.de/) – Consortium for Research Data on Material and Immaterial Cultural Heritage
