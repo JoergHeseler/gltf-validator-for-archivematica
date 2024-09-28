@@ -8,20 +8,20 @@ To install the **gltf_validator_connector_for_archivematica** script, follow the
 
 ### 1. Download the official glTF-Validator tool 
 
-- Download the latest release of the [glTF-Validator](https://github.com/KhronosGroup/glTF-Validator/releases) and install it in the `"/usr/share/"` folder.
+- Download the latest release of the [glTF-Validator](https://github.com/KhronosGroup/glTF-Validator/releases) and install it in the `/usr/share/` folder.
 
 ### 2. Create a new format policy tool
 - In the Archivematica frontend, navigate to **Preservation planning** > **Format policy registry** > **Tools** > **Create new tool** or go directly to [this link](http://10.10.10.20/fpr/fptool/create/).
 - Enter the following parameters:
-    - **Description**: Enter `"gltf_validator"`.
-    - **Version**: Enter `"1.0"`.
+    - **Description**: Enter `gltf_validator`.
+    - **Version**: Enter `1.0`.
 - Click **Save**.
 
 ### 3. Create a new validation command
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Commands** > **Create new command** or go directly to [this link](http://10.10.10.20/fpr/idcommand/create/).
 - Fill in the following fields:
     - **The related tool**: Select **gltf_validator**.
-    - **Description**: Enter `"Identify using gltf_validator"`.
+    - **Description**: Enter `Identify using gltf_validator`.
     - **Script**: Paste the entire content of the **gltf_validator_connector.py** file.
     - **Script type**: Select **Python script**.
     - **Command usage**: Select **Validation**.
