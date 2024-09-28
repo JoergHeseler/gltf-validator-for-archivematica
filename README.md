@@ -1,12 +1,12 @@
-# gltf_validator
+# gltf_validator_connector
 
-**gltf_validator** is a script for [Archivematica](https://www.archivematica.org/) that uses the official [glTF-Validator](https://github.com/KhronosGroup/glTF-Validator/releases) tool to validate glTF files.
+**gltf_validator_connector** is a script for [Archivematica](https://www.archivematica.org/) that uses the official [glTF-Validator](https://github.com/KhronosGroup/glTF-Validator/releases) tool to validate glTF files.
 
 ## Installation
 
-To install the **gltf_validator** script in Archivematica, follow these steps:
+To install the **gltf_validator_connector** script in Archivematica, follow these steps:
 
-### 1. Download the official gltf_validator tool 
+### 1. Download the official glTF-Validator tool 
 
 - Download the latest release of the [glTF-Validator](https://github.com/KhronosGroup/glTF-Validator/releases) and install it in the `"/usr/share/"` folder.
 
@@ -22,7 +22,7 @@ To install the **gltf_validator** script in Archivematica, follow these steps:
 - Fill in the following fields:
     - **The related tool**: Select **gltf_validator**.
     - **Description**: Enter `"Identify using gltf_validator"`.
-    - **Script**: Paste the entire content of the **gltf_validator.py** file.
+    - **Script**: Paste the entire content of the **gltf_validator_connector.py** file.
     - **Script type**: Select **Python script**.
     - **Command usage**: Select **Validation**.
 - Click **Save**.
