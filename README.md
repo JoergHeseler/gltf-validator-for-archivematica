@@ -1,4 +1,6 @@
-# gltf_validator_connector_for_archivematica
+# gltf_validator
+
+**gltf_validator** is a script for [Archivematica](https://www.archivematica.org/) that uses the official [glTF-Validator](https://github.com/KhronosGroup/glTF-Validator/releases) tool to validate glTF files.
 
 ## Installation
 
