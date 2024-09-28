@@ -4,7 +4,7 @@
 
 ## Installation
 
-To install the **gltf_validator_connector_for_archivematica** script in Archivematica, follow these steps:
+To install the **gltf_validator_connector_for_archivematica** script, follow these steps:
 
 ### 1. Download the official glTF-Validator tool 
 
