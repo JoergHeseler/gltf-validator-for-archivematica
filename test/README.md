@@ -1,7 +1,7 @@
 # glTF test files
 
 Various models and subversions can be found on the [official sample website](https://github.com/KhronosGroup/glTF-Sample-Models/tree/main/).
-Below is just a brief overview of a basic model in different subversions:
+Below is just a brief overview of a basic box model in the most popular subversions:
 
 ## Valid glTF 1.0 test files
 
