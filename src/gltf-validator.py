@@ -1,4 +1,4 @@
-# Title: gltf_validator_connector
+# Title: gltf-validator
 # Version: 1.0.0
 # Publisher: NFDI4Culture
 # Publication date: 2023, December 20th
