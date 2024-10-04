@@ -22,7 +22,7 @@ To install the **gltf-validator-for-archivematica** script, follow these steps:
 - Fill in the following fields:
     - **The related tool**: Select **gltf-validator**.
     - **Description**: Enter `Validate using gltf-validator`.
-    - **Script**: Paste the entire content of the **gltf-validator.py** file.
+    - **Script**: Paste the entire content of the [**gltf-validator.py**](./src/gltf-validator.py) file.
     - **Script type**: Select **Python script**.
     - **Command usage**: Select **Validation**.
 - Click **Save**.
