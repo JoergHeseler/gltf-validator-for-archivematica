@@ -53,7 +53,7 @@ To install the **gltf-validator-for-archivematica** script, follow these steps:
 
 ## Test
 
-To test this validator, you can use the sample glTF files located in the [`test`](./test/) folder.
+To test this validator, you can use the sample glTF files located [`here`](https://github.com/JoergHeseler/3d-sample-files-for-digital-preservation-testing/tree/main/gltf).
 
 You can view the error codes and detailed validation results in the Archivmatica frontend after starting a transfer by expanding the `▸ Microservice: Validation` section and clicking on the gear icon of `Job: Validate formats`.
 
