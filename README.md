@@ -1,4 +1,4 @@
-# gltf-validator-for-archivematica
+# glTF Validator for Archivematica
 
 **gltf-validator-for-archivematica** is a script that uses the official [glTF-Validator](https://github.com/KhronosGroup/glTF-Validator/releases) tool to validate Graphics Language Transmission Format (glTF) files in [Archivematica](https://www.archivematica.org/).
 
