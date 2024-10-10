@@ -4,7 +4,7 @@ This repository provides a script that uses the official [glTF-Validator](https:
 
 ## Installation
 
-To install the this script, follow these steps:
+To install this script, follow these steps:
 
 ### 1. Download the official glTF-Validator tool 
 
