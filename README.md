@@ -6,54 +6,59 @@ This repository provides a script that uses the official [glTF-Validator](https:
 
 To install this script, follow these steps:
 
-### 1. Download the official glTF-Validator tool 
+### 1. Download the official glTF-Validator tool
 
 - Download the latest release of the [glTF-Validator](https://github.com/KhronosGroup/glTF-Validator/releases) and install it in the `/usr/share/` folder.
 
 ### 2. Create a new format policy tool
+
 - In the Archivematica frontend, navigate to **Preservation planning** > **Format policy registry** > **Tools** > **Create new tool** or go directly to [this link](http://10.10.10.20/fpr/fptool/create/).
 - Enter the following parameters:
-    - **Description**: Enter `gltf-validator`.
-    - **Version**: Enter `1.0`.
+  - **Description**: Enter `gltf-validator`.
+  - **Version**: Enter `1.0`.
 - Click **Save**.
 
 ### 3. Create a new validation command
+
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Commands** > **Create new command** or go directly to [this link](http://10.10.10.20/fpr/fpcommand/create/).
 - Fill in the following fields:
-    - **The related tool**: Select **gltf-validator**.
-    - **Description**: Enter `Validate using gltf-validator`.
-    - **Script**: Paste the entire content of the [**gltf-validator.py**](./src/gltf-validator.py) file.
-    - **Script type**: Select **Python script**.
-    - **Command usage**: Select **Validation**.
+  - **The related tool**: Select **gltf-validator**.
+  - **Description**: Enter `Validate using gltf-validator`.
+  - **Script**: Paste the entire content of the [**gltf-validator.py**](./src/gltf-validator.py) file.
+  - **Script type**: Select **Python script**.
+  - **Command usage**: Select **Validation**.
 - Click **Save**.
 
 ### 4. Create a new validation rule for ASCII based glTF 1.0
+
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Rules** > **Create new rule** or go directly to [this link](http://10.10.10.20/fpr/fprule/create/).
 - Fill in the following fields:
-    - **Purpose**: Select **Validation**.
-    - **The related format**: Select **Model: GL Transmission Format (Text): GLTF 1.0 (fmt/1314)**.
-    - **Command**: Select **Validate using gltf-validator**.
+  - **Purpose**: Select **Validation**.
+  - **The related format**: Select **Model: GL Transmission Format (Text): GLTF 1.0 (fmt/1314)**.
+  - **Command**: Select **Validate using gltf-validator**.
 - Click **Save**.
 
 ### 5. Create a new validation rule for ASCII based glTF 2.0
+
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Rules** > **Create new rule** or go directly to [this link](http://10.10.10.20/fpr/fprule/create/).
 - Fill in the following fields:
-    - **Purpose**: Select **Validation**.
-    - **The related format**: Select **Model: GL Transmission Format (Text): GLTF 2.0 (fmt/1315)**.
-    - **Command**: Select **Validate using gltf-validator**.
+  - **Purpose**: Select **Validation**.
+  - **The related format**: Select **Model: GL Transmission Format (Text): GLTF 2.0 (fmt/1315)**.
+  - **Command**: Select **Validate using gltf-validator**.
 - Click **Save**.
 
 ### 6. Create a new validation rule for binary glTF files
+
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Rules** > **Create new rule** or go directly to [this link](http://10.10.10.20/fpr/fprule/create/).
 - Fill in the following fields:
-    - **Purpose**: Select **Validation**.
-    - **The related format**: Select **Model: GL Transmission Format (Binary): GLTF (Binary) (fmt/1316)**.
-    - **Command**: Select **Validate using gltf-validator**.
+  - **Purpose**: Select **Validation**.
+  - **The related format**: Select **Model: GL Transmission Format (Binary): GLTF (Binary) (fmt/1316)**.
+  - **Command**: Select **Validate using gltf-validator**.
 - Click **Save**.
 
 ## Test
 
-To test this validator, you can use the sample glTF files located [`here`](https://github.com/JoergHeseler/3d-sample-files-for-digital-preservation-testing/tree/main/gltf).
+To test this validator, you can use the sample glTF files located [here](https://github.com/JoergHeseler/3d-sample-files-for-digital-preservation-testing/tree/main/gltf).
 
 You can view the error codes and detailed validation results in the Archivmatica frontend after starting a transfer by expanding the `▸ Microservice: Validation` section and clicking on the gear icon of `Job: Validate formats`.
 
