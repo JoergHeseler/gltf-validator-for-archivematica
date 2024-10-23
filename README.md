@@ -14,20 +14,20 @@ To install this script, follow these steps:
 
 - In the Archivematica frontend, navigate to **Preservation planning** > **Format policy registry** > **Tools** > **Create new tool** or go directly to [this link](http://10.10.10.20/fpr/fptool/create/).
 - Enter the following parameters:
-  - **Description**: Enter `gltf-validator`.
-  - **Version**: Enter `1.0`.
+  - **Description**: Enter `gltf_validator`.
+  - **Version**: Enter `2.0.0-dev.3.8`.
 - Click **Save**.
 
 ### 3. Create a new validation command
 
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Commands** > **Create new command** or go directly to [this link](http://10.10.10.20/fpr/fpcommand/create/).
 - Fill in the following fields:
-  - **The related tool**: Select **gltf-validator**.
+  - **The related tool**: Select **gltf_validator**.
   - **Description**: Enter `Validate using gltf-validator`.
   - **Command**: Paste the entire content of the [**gltf-validator.py**](./src/gltf-validator.py) file.
   - **Script type**: Select **Python script**.
   - **Command usage**: Select **Validation**.
-  - Leave all other fields and comboboxes untouched.
+  - Leave all other input fields and combo boxes untouched.
 - Click **Save**.
 
 ### 4. Create a new validation rule for ASCII based glTF 1.0
