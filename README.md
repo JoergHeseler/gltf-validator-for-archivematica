@@ -23,7 +23,7 @@ To install this script, follow these steps:
 - In the Archivematica frontend, navigate to **Preservation planning** > **Validation** > **Commands** > **Create new command** or go directly to [this link](http://10.10.10.20/fpr/fpcommand/create/).
 - Fill in the following fields:
   - **The related tool**: Select **gltf_validator**.
-  - **Description**: Enter `Validate using gltf-validator`.
+  - **Description**: Enter `Validate using gltf_validator`.
   - **Command**: Paste the entire content of the [**gltf-validator.py**](./src/gltf-validator.py) file.
   - **Script type**: Select **Python script**.
   - **Command usage**: Select **Validation**.
@@ -36,7 +36,7 @@ To install this script, follow these steps:
 - Fill in the following fields:
   - **Purpose**: Select **Validation**.
   - **The related format**: Select **Model: GL Transmission Format (Text): GLTF 1.0 (fmt/1314)**.
-  - **Command**: Select **Validate using gltf-validator**.
+  - **Command**: Select **Validate using gltf_validator**.
 - Click **Save**.
 
 ### 5. Create a new validation rule for ASCII based glTF 2.0
@@ -45,7 +45,7 @@ To install this script, follow these steps:
 - Fill in the following fields:
   - **Purpose**: Select **Validation**.
   - **The related format**: Select **Model: GL Transmission Format (Text): GLTF 2.0 (fmt/1315)**.
-  - **Command**: Select **Validate using gltf-validator**.
+  - **Command**: Select **Validate using gltf_validator**.
 - Click **Save**.
 
 ### 6. Create a new validation rule for binary glTF files
@@ -54,7 +54,7 @@ To install this script, follow these steps:
 - Fill in the following fields:
   - **Purpose**: Select **Validation**.
   - **The related format**: Select **Model: GL Transmission Format (Binary): GLTF (Binary) (fmt/1316)**.
-  - **Command**: Select **Validate using gltf-validator**.
+  - **Command**: Select **Validate using gltf_validator**.
 - Click **Save**.
 
 ## Test
