@@ -24,9 +24,10 @@ To install this script, follow these steps:
 - Fill in the following fields:
   - **The related tool**: Select **gltf-validator**.
   - **Description**: Enter `Validate using gltf-validator`.
-  - **Script**: Paste the entire content of the [**gltf-validator.py**](./src/gltf-validator.py) file.
+  - **Command**: Paste the entire content of the [**gltf-validator.py**](./src/gltf-validator.py) file.
   - **Script type**: Select **Python script**.
   - **Command usage**: Select **Validation**.
+  - Leave all other fields and comboboxes untouched.
 - Click **Save**.
 
 ### 4. Create a new validation rule for ASCII based glTF 1.0
