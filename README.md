@@ -15,7 +15,7 @@ To install this script, follow these steps:
 - In the Archivematica frontend, navigate to **Preservation planning** > **Format policy registry** > **Tools** > **Create new tool** or go directly to [this link](http://10.10.10.20/fpr/fptool/create/).
 - Enter the following parameters:
   - **Description**: Enter `gltf_validator`.
-  - **Version**: Enter `2.0.0-dev.3.8`.
+  - **Version**: Enter the version you downloaded, e. g. `2.0.0-dev.3.8`.
 - Click **Save**.
 
 ### 3. Create a new validation command
