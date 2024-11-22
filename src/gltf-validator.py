@@ -1,7 +1,7 @@
 # Title: gltf-validator
 # Version: 1.0.0
 # Publisher: NFDI4Culture
-# Publication date: 2023, December 20th
+# Publication date: December 20, 2023
 # License: CC BY 4.0
 
 from __future__ import print_function
