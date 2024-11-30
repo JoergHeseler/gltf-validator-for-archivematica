@@ -13,8 +13,14 @@ import sys
 class GLTFValidatorException(Exception):
     pass
 
+def get_validator_path_from_arguments():
+    for arg in sys.argv:
+        if arg.lower().startswith("--validator-path="):
+            return arg.split("=", 1)[1].rstrip('/\\')
+    return '/usr/share/gltf_validator'
+
 def parse_gltf_validator_data(target):
-    validator_path = '/usr/share/gltf_validator'
+    validator_path = get_validator_path_from_arguments()
     args = [validator_path, '-amo', target]
     try:
         output = subprocess.check_output(args).decode("utf8")
