@@ -69,7 +69,7 @@ Files with no errors end with `valid` in their name and should pass validation w
 
 ### In the command line prompt:
 
-You can use the validator at the command line prompt by typing `python gltf-validator.py <GLTF file to validate>`. You might also add `--validator-path=<path to the official gltf_validator>`.
+You can use the validator at the command line prompt by typing `python gltf-validator.py <GLTF file to validate>`. You may also want to add `--validator-path=<path to the official gltf_validator>`.
 
 ## Dependencies
 
