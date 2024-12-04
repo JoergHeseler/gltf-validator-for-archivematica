@@ -67,7 +67,7 @@ You can view the error codes and detailed validation results in the Archivmatica
 
 Files with no errors end with `valid` in their name and should pass validation with this script (i. e. return error code **0**). However, all other files contain errors and should fail validation (i. e. return error code **1**).
 
-### In the command line prompt:
+### In the command line:
 
 You can use the validator at the command line prompt by typing `python gltf-validator.py <GLTF file to validate>`. You may also want to add `--validator-path=<path to the official gltf_validator>`.
 
